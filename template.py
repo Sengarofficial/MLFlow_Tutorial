@@ -24,6 +24,7 @@ list_of_files = [
     "config/config.yaml",
     "dvc.yaml",
     "schema.yaml",
+    "params.yaml",
     "main.py",
     "app.py",
     "Dockerfile",
