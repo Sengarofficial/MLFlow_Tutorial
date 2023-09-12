@@ -4,6 +4,7 @@ from src.Mlflow_Project.components.data_transformation import DataTransformation
 from src.Mlflow_Project.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from src.Mlflow_Project.pipeline.stage02_data_validation import DataValidationTrainingPipeline
 from src.Mlflow_Project.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
+from src.Mlflow_Project.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
 
 
 STAGE_NAME = "Data ingestion stage"
@@ -37,3 +38,15 @@ try:
     logger.info(f">>>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
 except Exception as e:
     raise e 
+
+
+
+
+STAGE_NAME = "Model Trainer Stage"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<<")
+    obj = ModelTrainerTrainingPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<")
+except Exception as e:
+    logger.exception(e)
