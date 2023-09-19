@@ -1,0 +1,7 @@
+artifact_location: file:///C:/Users/admin/Desktop/GAN_Deep_Learning/MLFlow_Tutorial/export
+  MLFLOW_TRACKING_PASSWORD=your_token/0
+creation_time: 1695105134270
+experiment_id: '0'
+last_update_time: 1695105134270
+lifecycle_stage: active
+name: Default

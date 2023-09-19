@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/admin/Desktop/GAN_Deep_Learning/MLFlow_Tutorial/export
+  MLFLOW_TRACKING_PASSWORD=your_token/0/aaca56042a59424a94fb8cfa952ba2db/artifacts
+end_time: 1695105145143
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aaca56042a59424a94fb8cfa952ba2db
+run_name: wise-mole-809
+run_uuid: aaca56042a59424a94fb8cfa952ba2db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695105134850
+status: 3
+tags: []
+user_id: admin

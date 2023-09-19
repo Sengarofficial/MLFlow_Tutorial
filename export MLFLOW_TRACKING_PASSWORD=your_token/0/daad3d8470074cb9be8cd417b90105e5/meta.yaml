@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/admin/Desktop/GAN_Deep_Learning/MLFlow_Tutorial/export
+  MLFLOW_TRACKING_PASSWORD=your_token/0/daad3d8470074cb9be8cd417b90105e5/artifacts
+end_time: 1695105274105
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: daad3d8470074cb9be8cd417b90105e5
+run_name: sneaky-gnat-191
+run_uuid: daad3d8470074cb9be8cd417b90105e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695105263316
+status: 3
+tags: []
+user_id: admin

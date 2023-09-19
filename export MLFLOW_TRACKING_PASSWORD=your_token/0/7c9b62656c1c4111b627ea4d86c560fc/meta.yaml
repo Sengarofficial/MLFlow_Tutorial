@@ -1,0 +1,16 @@
+artifact_uri: file:///C:/Users/admin/Desktop/GAN_Deep_Learning/MLFlow_Tutorial/export
+  MLFLOW_TRACKING_PASSWORD=your_token/0/7c9b62656c1c4111b627ea4d86c560fc/artifacts
+end_time: 1695105367243
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7c9b62656c1c4111b627ea4d86c560fc
+run_name: big-shrike-307
+run_uuid: 7c9b62656c1c4111b627ea4d86c560fc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1695105356683
+status: 3
+tags: []
+user_id: admin
