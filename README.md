@@ -71,3 +71,38 @@ export MLFLOW_TRACKING_USERNAME=Sengarofficial \
 export MLFLOW_TRACKING_PASSWORD=your_token  \
 
 '''
+
+
+AWS CICD Deployment With Github Actions 
+1. Login to aws console.
+2. Create IAM user for the deployment
+# with specific access 
+1. EC2 Access : It is virtual machine.
+2. ECR : Elastic Container registry to save your docker image in aws.
+
+
+# Description : About the deployment 
+
+1. Build docker image of the source code.
+2. Push your docker image to ECR.
+3. Launch your EC2.
+4. Pull your image from ECR in EC2.
+5. Launch your docker image.
+
+#Policy
+1. AmazonEC2ContainerRegistryFullaccess
+2. AmazonEC2FullAccess 
+
+
+3. Create ECR repo to store/save docker image 
+
+- Save the URL: 
+
+4. Create EC2 machine (Ubuntu)
+
+5. Open EC2 and install docker in EC2 Machine:
+
+#optional 
+
+sudo apt-get update -y
+sudo apt-get upgrade 
